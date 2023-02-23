@@ -21,4 +21,4 @@ chatbot = gr.Interface(
     inputs=["text", "text"],
     outputs="text",
 )
-chatbot.launch()   
+chatbot.launch(share=True)   
